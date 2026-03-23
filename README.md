@@ -1,1 +1,3 @@
-AURORA VELOCITY ENGINE
+## Velocity Core - Real-Time Racing Simulation Engine
+
+
