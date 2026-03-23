@@ -5,22 +5,20 @@
 
 ---
 
-## 🧠 Overview
+## 🧠 What is Velocity Core  / Why It Exists
 
 **Velocity Core** is a high-performance **terminal-based simulation engine** modeling real-time racing dynamics between multiple agents.
-
-Unlike simple visual demos, this project focuses on:
-
-- deterministic simulation systems
-- stochastic motion modeling
-- real-time rendering pipelines
-- event-driven architecture
-
 All executed directly inside the terminal using **pure ASCII + ANSI rendering**.
+Velocity Core explores how deterministic systems, stochastic physics, and real-time rendering can coexist in a constrained environment like a terminal.
+
+This project is a minimal representation of:
+- game engines
+- simulation systems
+- real-time distributed thinking
 
 ---
 
-## 🎯 Key Capabilities
+## 🧱 Core Capabilities
 
 - 🏎️ Multi-agent racing simulation (5 concurrent vehicles)
 - ⏱ Real-time game loop (tick-based engine)
@@ -101,9 +99,7 @@ All executed directly inside the terminal using **pure ASCII + ANSI rendering**.
 
 ---
 
-## 🧠 Engine Design
-
-### 1. Simulation Loop
+## Simulation Loop
 
 The system runs on a **tick-based loop**:
 
@@ -115,7 +111,7 @@ while (!winner) {
 ```
 ---
 
-## 🧱 Project Structure
+## 🏛️ Project Structure
 ```bash
 velocity-core/
 │
@@ -205,6 +201,25 @@ AUDI           ████🏎️████████████      │
 4. ASTON MARTIN  52 pts
 5. AUDI          49 pts
 ```
+
+---
+
+## ⚙️ Engineering Notes
+
+- Deterministic RNG ensures reproducible simulations
+- Tick-based loop avoids time drift issues
+- Rendering is decoupled from physics updates
+- Stateless frame computation for predictability
+
+---
+
+## 🔮 Future Work
+
+- Multi-race championship mode
+- Distributed simulation (multi-node)
+- AI-driven car strategies
+- Replay system
+- Web visualization layer
 
 ---
 
