@@ -8,7 +8,7 @@ const {
 } = require("./renderer");
 const { sleep, getFrameDelay } = require("../utils/timing");
 
-const TRACK_LENGTH = 90;
+const TRACK_LENGTH = 120;
 
 function createCars() {
   return [
