@@ -36,23 +36,6 @@ All executed directly inside the terminal using **pure ASCII + ANSI rendering**.
 
 ---
 
-## 🎬 Terminal Preview
-```sh
-╔══════════════════════════════════════════════╗
-║        VELOCITY CORE — LIVE RACE            ║
-╚══════════════════════════════════════════════╝
-
-MERCEDES       ████████🏎️████████      │
-FERRARI        ███████🏎️█████████      │
-MCLAREN        ██████🏎️██████████      │
-ASTON MARTIN   █████🏎️███████████      │
-AUDI           ████🏎️████████████      │
-
-──────────────────────────────────────────────
-🏁 WINNER: MERCEDES
-```
----
-
 ## ⚙️ System Architecture
 ```sh
                           [ Player / CLI Input ]
@@ -116,6 +99,7 @@ AUDI           ████🏎️████████████      │
         +---------------------------------------------------+
 
 ```
+
 ---
 
 ## 🧠 Engine Design
@@ -165,6 +149,24 @@ Vitesse : fast
 Seed : 42
 ```
 ---
+
+## 🎬 Terminal Preview
+```sh
+╔══════════════════════════════════════════════╗
+║        VELOCITY CORE — LIVE RACE            ║
+╚══════════════════════════════════════════════╝
+
+MERCEDES       ████████🏎️████████      │
+FERRARI        ███████🏎️█████████      │
+MCLAREN        ██████🏎️██████████      │
+ASTON MARTIN   █████🏎️███████████      │
+AUDI           ████🏎️████████████      │
+
+──────────────────────────────────────────────
+🏁 WINNER: MERCEDES
+```
+---
+
 
 ## 📊 Example Output
 ```sh
