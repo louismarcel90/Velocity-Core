@@ -1,8 +1,7 @@
 # Velocity Core — *Real-Time Racing Simulation Engine*
 
-Terminal Grand-Prix Edition 🏆🏁
-
-Deterministic multi-agent racing simulation rendered in pure ASCII.
+- Terminal Grand-Prix Edition 🏆🏁
+- Deterministic multi-agent racing simulation rendered in pure ASCII.
 
 ---
 
@@ -37,7 +36,7 @@ All executed directly inside the terminal using **pure ASCII + ANSI rendering**.
 ---
 
 ## ⚙️ System Architecture
-```sh
+```bash
                           [ Player / CLI Input ]
                                    |
                                    v
@@ -116,10 +115,34 @@ while (!winner) {
 ```
 ---
 
+## 🧱 Project Structure
+```bash
+velocity-core/
+│
+├── src/
+│   ├── cli/
+│   │   └── menu.js
+│   │
+│   ├── engine/
+│   │   ├── race.js
+│   │   ├── physics.js
+│   │   ├── renderer.js
+│   │
+│   ├── utils/
+│   │   └── random.js
+│   │
+│   └── index.js
+│
+├── package.json
+└── README.md
+
+```
+
+
 ## 🚀 Getting Started
 
-1. Install
-```sh
+1. 📦 Installation
+```bash
 git clone https://github.com/your-username/velocity-core.git
 cd velocity-core
 npm install
@@ -185,48 +208,6 @@ AUDI           ████🏎️████████████      │
 
 ---
 
-## 📈 Engineering Value
-
-This project demonstrates:
-
-- System design thinking
-- Real-time processing
-- Deterministic simulation
-- Rendering pipelines
-- CLI UX engineering
-
----
-
-🧠 Design Philosophy
-
-Build small systems with high signal and clear architecture.
-
-Velocity Core focuses on:
-
-- Clarity over complexity
-- Determinism over randomness chaos
-- System thinking over UI gimmicks
-
----
-
-## 🏆 Positioning
-
-This project is designed to reflect:
-
-Staff / Principal-level engineering mindset through a compact but high-impact system.
-
----
-
-##🔥 Roadmap
-
- Web version (Canvas / WebGL)
- Multiplayer (WebSocket)
- AI-driven betting system
- Replay visualizer
- Performance benchmarking
-
- ---
-
 ## 👨‍💻 Author
 
 Built with precision, systems thinking, and performance-first mindset.
@@ -238,13 +219,11 @@ Built with precision, systems thinking, and performance-first mindset.
 If you find this project interesting:
 
 - ⭐ Star the repository
-
 - 🍴 Fork it
-
 - 🧠 Explore the architecture
 
 ---
-
+  
 ## 📄 License
 
 MIT License
