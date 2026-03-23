@@ -1,7 +1,11 @@
-# Velocity Core — *Real-Time Racing Simulation Engine*
+# ⚡Velocity Core — *Real-Time Racing Simulation Engine*
 
 - Terminal Grand-Prix Edition 🏆🏁
 - Deterministic multi-agent racing simulation rendered in pure ASCII.
+
+![Node](https://img.shields.io/badge/node-%3E%3D18-green)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![CLI](https://img.shields.io/badge/interface-CLI-black)
 
 ---
 
@@ -170,19 +174,20 @@ Seed : 42
 ---
 
 ## 🎬 Terminal Preview
-```sh
-╔══════════════════════════════════════════════╗
-║        VELOCITY CORE — LIVE RACE            ║
-╚══════════════════════════════════════════════╝
 
-MERCEDES       ████████🏎️████████      │
-FERRARI        ███████🏎️█████████      │
-MCLAREN        ██████🏎️██████████      │
-ASTON MARTIN   █████🏎️███████████      │
-AUDI           ████🏎️████████████      │
+```text
+╔══════════════════════════════════════════════════════════════╗
+║                 VELOCITY CORE — LIVE RACE                  ║
+╚══════════════════════════════════════════════════════════════╝
 
-──────────────────────────────────────────────
-🏁 WINNER: MERCEDES
+MERCEDES      _________🏎️_______________________________  ║
+FERRARI       ______________🏎️__________________________  ║
+MCLAREN       _________________🏎️_______________________  ║
+ASTON MARTIN  ________🏎️________________________________  ║
+AUDI          _____________________🏎️___________________  ║
+
+──────────────────────────────────────────────────────────────
+🏁 WINNER: MERCEDES 
 ```
 ---
 
