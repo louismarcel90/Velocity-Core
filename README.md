@@ -167,9 +167,9 @@ At launch:
 
 ⚡ VELOCITY CORE
 
-Nombre de tours : 3
-Vitesse : fast
-Seed : 42
+Nombre de tours : 1 - 5 (choose from 1 to 5 tours)
+Vitesse : slow | normal | fast ( default: normal)
+Seed : 42 
 ```
 ---
 
