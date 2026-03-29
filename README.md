@@ -9,6 +9,14 @@
 
 ---
 
+<br/>
+
+<p align="center">
+  <img src="src/assets/images/cli.png" width="700"/>
+</p>
+
+<br/>
+
 ## 🧠 What is Velocity Core  / Why It Exists
 
 **Velocity Core** is a high-performance **terminal-based simulation engine** modeling real-time racing dynamics between multiple agents.
