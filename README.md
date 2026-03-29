@@ -130,7 +130,7 @@ velocity-core/
 
 1. 📦 Installation
 ```bash
-git clone https://github.com/your-username/velocity-core.git
+git clone https://github.com/louismarcel90/velocity-core.git
 cd velocity-core
 npm install
 ```
