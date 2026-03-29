@@ -100,19 +100,6 @@ This project is a minimal representation of:
         +---------------------------------------------------+
 
 ```
-
----
-
-## Simulation Loop
-
-The system runs on a **tick-based loop**:
-
-```js
-while (!winner) {
-  updatePhysics()
-  renderFrame()
-}
-```
 ---
 
 ## 🏛️ Project Structure
@@ -231,16 +218,6 @@ AUDI          _____________________🏎️___________________  ║
 ## 👨‍💻 Author
 
 Built with precision, systems thinking, and performance-first mindset.
-
----
-
-## ⭐ Support
-
-If you find this project interesting:
-
-- ⭐ Star the repository
-- 🍴 Fork it
-- 🧠 Explore the architecture
 
 ---
   
