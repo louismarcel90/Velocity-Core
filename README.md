@@ -1,4 +1,4 @@
-# ⚡Velocity Core — *Real-Time Racing Simulation Engine*
+# Velocity Core — _Real-Time Racing Simulation Engine_
 
 - Terminal Grand-Prix Edition 🏆🏁
 - Deterministic multi-agent racing simulation rendered in pure ASCII.

@@ -112,6 +112,12 @@ function buildCar(car, seed = 0) {
   const top = colorize(` __/[${label}]\\__ `, color);
   const bottom = colorize(`-${w1}---------${w2}-`, color);
 
+  /*         ______
+       /|_||_\`.__
+      (   _    _ _\
+      =`-(_)--(_)-'
+  */
+
   return { top, bottom };
 }
 
