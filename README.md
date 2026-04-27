@@ -211,17 +211,7 @@ AUDI          ______________________ _o==o\__ __________________  ║
 - Rendering is decoupled from physics updates
 - Stateless frame computation for predictability
 
----
-
-## 🔮 Future Work
-
-- Multi-race championship mode
-- Distributed simulation (multi-node)
-- AI-driven car strategies
-- Replay system
-- Web visualization layer
-
----
+--- 
 
 ## 👨‍💻 Author
 
